@@ -81,7 +81,7 @@ int LoadMon::task_spawn(int argc, char *argv[])
 
 void LoadMon::start()
 {
-	ScheduleOnInterval(500_ms); // 2 Hz
+	ScheduleOnInterval(100_ms); // 2 Hz
 }
 
 void LoadMon::Run()
